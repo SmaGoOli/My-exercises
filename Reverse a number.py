@@ -1,8 +1,8 @@
 def Reverse(number):
     r_reverse = 0
     while number > 0 :
-        Reminder = number % 10
-        r_reverse = ( r_reverse * 10 ) + Reminder
+        reminder = number % 10
+        r_reverse = ( r_reverse * 10 ) + reminder
         number = number//10
     return r_reverse
 
